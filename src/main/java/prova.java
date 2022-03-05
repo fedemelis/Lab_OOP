@@ -3,5 +3,7 @@ public class prova {
         System.out.println("Ciao");
 
         int[] a = new int[10];
+
+        short [] s = new short[7];
     }
 }
