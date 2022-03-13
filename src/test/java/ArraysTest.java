@@ -30,13 +30,6 @@ public class ArraysTest {
     }
 
     @Test
-    public void moveZerosEnd() {
-        assertArrayEquals(new int[]{1, 2, 3}, Arrays.moveZerosEnd(new int[]{1, 2, 3}));
-        assertArrayEquals(new int[]{1, 2, 3, 0, 0}, Arrays.moveZerosEnd(new int[]{1, 2, 0, 0, 3}));
-        assertArrayEquals(new int[]{1, 2, 3, 0}, Arrays.moveZerosEnd(new int[]{0, 1, 2, 3}));
-    }
-
-    @Test
     public void splitter() {
         assertArrayEquals(new int[]{2, 3, 4, 4, 5, 6}, Arrays.splitter(234456));
     }
