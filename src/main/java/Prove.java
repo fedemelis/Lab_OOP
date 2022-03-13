@@ -1,6 +1,5 @@
-import java.util.Arrays;
 
-public class prova {
+public class Prove {
     public static void main(String[] args) {
 
         MyPoint p1 = new MyPoint();
@@ -14,6 +13,7 @@ public class prova {
 
 
         MyPoint.swap(p1);
+        MyPoint.swap(p2);
 
     }
 }
