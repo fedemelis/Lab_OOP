@@ -1,4 +1,4 @@
-import esercizi.Body;
+import esercizi.oop.Body;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

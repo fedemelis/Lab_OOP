@@ -1,4 +1,4 @@
-package esercizi;
+package esercizi.oop;
 /**
  * Implement a Body class representing a two-dimensional body (x, y) capable of moving with a certain speed (vx, vy).
  *

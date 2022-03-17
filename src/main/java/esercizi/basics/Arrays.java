@@ -1,4 +1,4 @@
-package esercizi;
+package esercizi.basics;
 
 /**
  * You can find many more here:

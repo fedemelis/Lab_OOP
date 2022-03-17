@@ -1,4 +1,7 @@
-import esercizi.Arrays;
+package test;
+
+import esercizi.basics.Arrays;
+import test.MyPoint;
 
 public class Prove {
     public static void main(String[] args) {

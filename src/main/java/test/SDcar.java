@@ -1,4 +1,8 @@
-public class SDcar extends Car{
+package test;
+
+import test.Car;
+
+public class SDcar extends Car {
 
     boolean isSD;
 
