@@ -1,7 +1,6 @@
 package esercizi.oop;
 
 import java.awt.*;
-import java.util.Arrays;
 
 /**
  * Write a class named Polygon representing an irregular polygon.
@@ -18,6 +17,38 @@ import java.util.Arrays;
  */
 public class Polygon {
 
+    Point vertices[];
+
+    public Polygon(Point[] vertici) {
+        this.vertices = vertici;
+    }
+
+    public Point[] getVertices() {
+        return vertices;
+    }
+
+    public void setVertices(Point[] p) {
+        this.vertices = vertices;
+    }
+
+    public int getVerticesNumber(){
+        return vertices.length;
+    }
+
+    public void move(Point movement){
+        for(Point p : vertices){
+            p.setLocation(p.getX() + movement.getX(), p.getY() + movement.getY());
+        }
+    }
+
+    public double getArea(){
+        double sum = 0;
+        for (int i = 0; i < vertices.length; i++) {
+            int next = (i + 1) % vertices.length;
+            sum += (vertices[i].x * vertices[next].y) - (vertices[i].y * vertices[next].x);
+        }
+        return sum / 2.0;
+    }
 
 
 }
