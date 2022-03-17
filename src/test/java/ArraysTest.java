@@ -1,3 +1,4 @@
+import esercizi.Arrays;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -27,13 +28,6 @@ public class ArraysTest {
         assertArrayEquals(new long[]{0}, Arrays.fibonacci(1));
         assertArrayEquals(new long[]{0, 1}, Arrays.fibonacci(2));
         assertArrayEquals(new long[]{0, 1, 1, 2, 3}, Arrays.fibonacci(5));
-    }
-
-    @Test
-    public void moveZerosEnd() {
-        assertArrayEquals(new int[]{1, 2, 3}, Arrays.moveZerosEnd(new int[]{1, 2, 3}));
-        assertArrayEquals(new int[]{1, 2, 3, 0, 0}, Arrays.moveZerosEnd(new int[]{1, 2, 0, 0, 3}));
-        assertArrayEquals(new int[]{1, 2, 3, 0}, Arrays.moveZerosEnd(new int[]{0, 1, 2, 3}));
     }
 
     @Test

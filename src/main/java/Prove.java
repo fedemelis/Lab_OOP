@@ -1,3 +1,4 @@
+import esercizi.Arrays;
 
 public class Prove {
     public static void main(String[] args) {
@@ -14,6 +15,10 @@ public class Prove {
 
         MyPoint.swap(p1);
         MyPoint.swap(p2);
+
+        int[] p = {1, 2, 3};
+
+        Arrays.moveZerosEnd(p);
 
     }
 }
