@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArraysTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-11T16:55:28" hostname="PORTATILE-FEDE" time="0.033">
+  <properties/>
+  <testcase name="splitter()" classname="ArraysTest" time="0.024"/>
+  <testcase name="divideArray()" classname="ArraysTest" time="0.003"/>
+  <testcase name="fibonacci()" classname="ArraysTest" time="0.001"/>
+  <testcase name="bubbleSort()" classname="ArraysTest" time="0.001"/>
+  <testcase name="moveZerosEnd()" classname="ArraysTest" time="0.001"/>
+  <testcase name="divideArrays()" classname="ArraysTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
