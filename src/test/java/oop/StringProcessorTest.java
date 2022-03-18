@@ -1,3 +1,5 @@
+package oop;
+
 import esercizi.oop.StringProcessor;
 import org.junit.jupiter.api.Test;
 

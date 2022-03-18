@@ -1,3 +1,5 @@
+package oop;
+
 import esercizi.oop.Body;
 import org.junit.jupiter.api.Test;
 

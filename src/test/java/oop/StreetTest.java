@@ -1,3 +1,5 @@
+package oop;
+
 import esercizi.oop.Street;
 import org.junit.jupiter.api.Test;
 

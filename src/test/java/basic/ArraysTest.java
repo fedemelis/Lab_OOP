@@ -1,3 +1,5 @@
+package basic;
+
 import esercizi.basics.Arrays;
 import org.junit.jupiter.api.Test;
 

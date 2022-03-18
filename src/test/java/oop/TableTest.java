@@ -1,3 +1,5 @@
+package oop;
+
 import esercizi.oop.Table;
 import org.junit.jupiter.api.Test;
 
