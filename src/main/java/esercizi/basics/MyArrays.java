@@ -1,5 +1,7 @@
 package esercizi.basics;
 
+import java.util.*;
+
 /**
  * You can find many more here:
  * https://www.w3resource.com/java-exercises/array/index.php
@@ -8,7 +10,7 @@ package esercizi.basics;
  * Code -> Folding -> Collapse All
  * Code -> Folding -> Expand Doc Comments
  */
-public class Arrays {
+public class MyArrays {
     /**
      * Write a function accepting a double[] and a factor f (double)
      * returning a double[] representing the original double[] divided by f
@@ -194,4 +196,16 @@ public class Arrays {
         }
         return ris;
     }
+
+
+    public static void main(String[] args){
+        List<String> l = new ArrayList<>();
+        l.add("prova");
+        l.add("prova1");
+        l.add("prova1");
+        l.add("prova3");
+
+    }
+
+
 }

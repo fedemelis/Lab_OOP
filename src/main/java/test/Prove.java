@@ -1,7 +1,6 @@
 package test;
 
-import esercizi.basics.Arrays;
-import test.MyPoint;
+import esercizi.basics.MyArrays;
 
 public class Prove {
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class Prove {
 
         int[] p = {1, 2, 3};
 
-        Arrays.moveZerosEnd(p);
+        MyArrays.moveZerosEnd(p);
 
     }
 }
