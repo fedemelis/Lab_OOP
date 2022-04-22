@@ -71,7 +71,7 @@ public class Exceptions {
     }
 
     public static void removeItems(List<String> strings){
-        for(Iterator<String> i = strings.iterator(); i.hasNext())
+        for(Iterator<String> i = strings.iterator(); i.hasNext();)
             try {
                 checkString(i.next());
             }catch (ParseException e){
@@ -91,9 +91,9 @@ public class Exceptions {
         return d1.before(d2);
     }
 
-    public static boolean checkInterval(String begin, String end) throws ParseException{
+    /*public static boolean checkInterval(String begin, String end) throws ParseException{
 
-    }
+    }*/
 
     /**
      * Write a function receiving two strings as parameters and returning true if the first date is before the second
